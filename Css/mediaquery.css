@@ -1,0 +1,168 @@
+/* ================== XXL ================== */
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* ================== XL ================== */
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* ================== LG ================== */
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 13px;
+  }
+  .w-48 {
+    width: 100%;
+  }
+  header {
+    padding-top: 15%;
+  }
+  .w-32 {
+    width: 80%;
+  }
+  .s-r {
+    top: 90%;
+  }
+  .t-o-s {
+    top: 85%;
+    left: 75%;
+  }
+  .a-r {
+    top: 90%;
+  }
+  .a-a-r {
+    left: 75%;
+  }
+  .c-v {
+    top: 90%;
+  }
+  .width-carousel {
+    width: 60%;
+  }
+  .none {
+    display: none;
+  }
+  .rate-card {
+    padding: 15px 25px;
+  }
+  .border-contact {
+    width: 40%;
+  }
+  textarea {
+    height: 12vh;
+  }
+  .hover-navbar:not(.hover-nav):hover::after,
+  .hover-nav:hover::before,
+  .nav-link.active::after {
+    width: 8%;
+  }
+}
+
+/* ================== MD ================== */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  .w-48 {
+    width: 100%;
+  }
+  header {
+    padding-top: 20%;
+  }
+  .w-32 {
+    width: 80%;
+  }
+  .s-r {
+    top: 90%;
+  }
+  .t-o-s {
+    top: 85%;
+    left: 70%;
+  }
+  .a-r {
+    top: 90%;
+  }
+  .a-a-r {
+    left: 70%;
+  }
+  .c-v {
+    top: 90%;
+  }
+  .width-carousel {
+    width: 65%;
+  }
+  .border-contact {
+    width: 45%;
+  }
+  textarea {
+    height: 15vh;
+  }
+  .hover-navbar:not(.hover-nav):hover::after,
+  .hover-nav:hover::before,
+  .nav-link.active::after {
+    width: 15%;
+  }
+}
+
+/* ================== SM ================== */
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 13px;
+  }
+  .w-48 {
+    width: 100%;
+  }
+  header {
+    padding-top: 25%;
+  }
+  .w-32 {
+    width: 80%;
+  }
+  .s-r {
+    top: 90%;
+  }
+  .t-o-s {
+    top: 85%;
+    left: 50%;
+  }
+  .a-r {
+    top: 90%;
+  }
+  .a-a-r {
+    left: 50%;
+  }
+  .c-v {
+    top: 90%;
+  }
+  .width-carousel {
+    width: 80%;
+  }
+  .rate-card {
+    padding: 10px 20px;
+  }
+  .border-contact {
+    width: 100%;
+  }
+  textarea {
+    height: 20vh;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3%;
+  }
+  .hover-navbar:not(.hover-nav):hover::after,
+  .hover-nav:hover::before,
+  .nav-link.active::after {
+    width: 20%;
+  }
+  .dropdown-menu {
+    left: 0%;
+    width: 100vw;
+  }
+}
