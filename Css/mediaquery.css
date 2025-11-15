@@ -21,7 +21,7 @@
     width: 100%;
   }
   header {
-    padding-top: 15%;
+    padding-block: 25%;
   }
   .w-32 {
     width: 80%;
@@ -73,7 +73,7 @@
     width: 100%;
   }
   header {
-    padding-top: 20%;
+    padding-block: 20% 10%;
   }
   .w-32 {
     width: 80%;
@@ -119,7 +119,7 @@
     width: 100%;
   }
   header {
-    padding-top: 25%;
+    padding-block: 25% 10%;
   }
   .w-32 {
     width: 80%;
