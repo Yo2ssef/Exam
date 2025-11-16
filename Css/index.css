@@ -98,11 +98,17 @@ body {
   letter-spacing: 0.6px;
 }
 .text-linear {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #872bff), color-stop(70%, #fa9800));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(40%, #872bff),
+    color-stop(70%, #fa9800)
+  );
   background-image: -o-linear-gradient(left, #872bff 40%, #fa9800 70%);
   background-image: linear-gradient(to right, #872bff 40%, #fa9800 70%);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .header-text-center::after {
@@ -112,7 +118,13 @@ body {
   height: 0.1563rem;
   border-top-right-radius: 100%;
   border-bottom-right-radius: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#872bff), to(#ffffff));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#872bff),
+    to(#ffffff)
+  );
   background-image: -o-linear-gradient(left, #872bff, #ffffff);
   background-image: linear-gradient(to right, #872bff, #ffffff);
   margin-bottom: 0.1875rem;
@@ -125,7 +137,13 @@ body {
   height: 0.1563rem;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 100%;
-  background-image: -webkit-gradient(linear, right top, left top, from(#872bff), to(#ffffff));
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#872bff),
+    to(#ffffff)
+  );
   background-image: -o-linear-gradient(right, #872bff, #ffffff);
   background-image: linear-gradient(to left, #872bff, #ffffff);
   margin-bottom: 0.1875rem;
@@ -138,7 +156,13 @@ body {
   height: 0.1563rem;
   border-top-right-radius: 100%;
   border-bottom-right-radius: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#fc9818), to(#561791));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc9818),
+    to(#561791)
+  );
   background-image: -o-linear-gradient(left, #fc9818, #561791);
   background-image: linear-gradient(to right, #fc9818, #561791);
   margin-bottom: 0.1875rem;
@@ -151,7 +175,13 @@ body {
   height: 0.1563rem;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 100%;
-  background-image: -webkit-gradient(linear, right top, left top, from(#fc9818), to(#561791));
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#fc9818),
+    to(#561791)
+  );
   background-image: -o-linear-gradient(right, #fc9818, #561791);
   background-image: linear-gradient(to left, #fc9818, #561791);
   margin-bottom: 0.1875rem;
@@ -171,7 +201,7 @@ body {
 /* ================== Navbar ================== */
 .navbar {
   -webkit-box-shadow: 0.375rem 0.375rem 0.375rem #7e22fe36;
-          box-shadow: 0.375rem 0.375rem 0.375rem #7e22fe36;
+  box-shadow: 0.375rem 0.375rem 0.375rem #7e22fe36;
 }
 nav {
   z-index: 9999;
@@ -241,7 +271,7 @@ nav {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: 0;
 }
 
@@ -339,7 +369,8 @@ header {
   padding-top: 10%;
   background-image: -webkit-gradient(
       linear,
-      left top, left bottom,
+      left top,
+      left bottom,
       from(rgba(72, 19, 113, 0.813)),
       to(rgba(72, 19, 113, 0.824))
     ),
@@ -358,7 +389,6 @@ header {
   background-position: center;
   background-attachment: fixed;
 }
-
 .loca-form-header {
   padding-left: 2.8125rem;
 }
@@ -391,9 +421,10 @@ header input::placeholder {
 }
 header select {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   cursor: pointer;
+  background-color: white;
 }
 input:focus,
 select:focus,
@@ -419,7 +450,7 @@ textarea:focus {
 }
 .cards-box-shadow {
   -webkit-box-shadow: 0rem 0.625rem 0.625rem #7e22fe29;
-          box-shadow: 0rem 0.625rem 0.625rem #7e22fe29;
+  box-shadow: 0rem 0.625rem 0.625rem #7e22fe29;
 }
 .span-photo-1 {
   top: 5%;
@@ -446,21 +477,21 @@ textarea:focus {
   width: 100%;
   height: 100%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
 }
 
 .img-cards:hover img {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .img-cards {
@@ -503,7 +534,7 @@ textarea:focus {
 }
 .rate-card {
   -webkit-box-shadow: 0rem 0.375rem 0.375rem #7e22fe23;
-          box-shadow: 0rem 0.375rem 0.375rem #7e22fe23;
+  box-shadow: 0rem 0.375rem 0.375rem #7e22fe23;
   padding: 10px 20px;
 }
 .s-r {
@@ -553,15 +584,15 @@ textarea:focus {
   width: 100%;
   height: 100%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
 }
 .img-invest {
   cursor: pointer;
@@ -608,7 +639,7 @@ textarea:focus {
 /* ================== Frequently Asked Questions ================== */
 .accordion-item {
   -webkit-box-shadow: 0rem 0.625rem 0.375rem #7e22fe2a;
-          box-shadow: 0rem 0.625rem 0.375rem #7e22fe2a;
+  box-shadow: 0rem 0.625rem 0.375rem #7e22fe2a;
 }
 .accordion-header:hover {
   background-color: #f9fafb;
@@ -631,7 +662,7 @@ textarea:focus {
 }
 .accordion-button:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 /* =================================================== */
 
@@ -687,7 +718,13 @@ textarea:focus {
   color: #9e25fd;
 }
 .visit-us span {
-  background-image: -webkit-gradient(linear, left top, right top, from(#e60076), to(#f9933a));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#e60076),
+    to(#f9933a)
+  );
   background-image: -o-linear-gradient(left, #e60076, #f9933a);
   background-image: linear-gradient(to right, #e60076, #f9933a);
 }
@@ -705,8 +742,8 @@ textarea:focus {
 .visit-us:hover,
 .live-chat:hover {
   -webkit-transform: translateY(-0.3125rem);
-      -ms-transform: translateY(-0.3125rem);
-          transform: translateY(-0.3125rem);
+  -ms-transform: translateY(-0.3125rem);
+  transform: translateY(-0.3125rem);
 }
 .call-us:hover {
   border: #863bff 0.125rem solid;
@@ -742,8 +779,8 @@ textarea:focus {
 .visit-us:hover span,
 .live-chat:hover span {
   -webkit-transform: scale(1.07);
-      -ms-transform: scale(1.07);
-          transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
 }
 .contact-info {
   background: #f6f7f9;
@@ -769,8 +806,8 @@ textarea:focus {
 
 .hover-icon-cwu:hover {
   -webkit-transform: scale(1.07);
-      -ms-transform: scale(1.07);
-          transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
   background-color: #b45cfc;
   cursor: pointer;
 }
@@ -823,12 +860,18 @@ textarea {
 
 .bg-buttton-submit:hover {
   -webkit-transform: translateY(-0.3125rem);
-      -ms-transform: translateY(-0.3125rem);
-          transform: translateY(-0.3125rem);
+  -ms-transform: translateY(-0.3125rem);
+  transform: translateY(-0.3125rem);
   cursor: pointer;
 }
 .footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4d1699), to(#5a178c));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#4d1699),
+    to(#5a178c)
+  );
   background-image: -o-linear-gradient(left, #4d1699, #5a178c);
   background-image: linear-gradient(to right, #4d1699, #5a178c);
 }
@@ -842,8 +885,8 @@ textarea {
 }
 .footer div .hover-icon-footer:hover {
   -webkit-transform: scale(1.07);
-      -ms-transform: scale(1.07);
-          transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
   background-color: #7f22fe;
   cursor: pointer;
 }
